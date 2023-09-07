@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href={{asset("images/favicon.png")}}>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
-    <title>POLO | The Multi-Purpose HTML5 Template</title>
+    <title>Online shop</title>
     <!-- Stylesheets & Fonts -->
     <link href={{asset("css/plugins.css")}} rel="stylesheet">
     <link href={{asset("css/style.css")}} rel="stylesheet">
@@ -70,8 +70,8 @@
                                 <li><a href={{route('about')}}>About us</a></li>
                                 <li><a href={{route('contacts')}}>Contacts</a></li>
                                 <li><a href={{route('products')}}>Products</a></li>
-                                <li><a href={{route('wishlist')}}>Wish list</a></li>
                                 <li><a href={{route('cart')}}>Shopping cart</a></li>
+                                <li><a href={{route('login')}}>Sign in</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -87,69 +87,46 @@
         <div class="footer-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5">
-                        <div class="widget">
-                            <div class="widget-title">Polo HTML5 Template</div>
-                            <p class="mb-5">Built with love in Fort Worth, Texas, USA<br>
-                                All rights reserved. Copyright © 2019. INSPIRO.</p>
-                            <a href="https://themeforest.net/item/polo-responsive-multipurpose-html5-template/13708923" class="btn btn-inverted" target="_blank">Purchase Now</a>
+                    <div class="col-md-4">
+                        <div class="icon-box effect small clean">
+                            <div class="icon">
+                                <a href="#"><i class="icon-clock"></i></a>
+                            </div>
+                            <h3>Working Days</h3>
+                            <p><strong>Monday - Friday</strong>
+                                <br>10:00 AM - 11:00 PM</p>
+                            <p><strong>Saturday - Sunday</strong>
+                                <br>10:00 AM - 04:00 PM</p>
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="widget">
-                                    <div class="widget-title">Discover</div>
-                                    <ul class="list">
-                                        <li><a href="#">Features</a></li>
-                                        <li><a href="#">Layouts</a></li>
-                                        <li><a href="#">Corporate</a></li>
-                                        <li><a href="#">Updates</a></li>
-                                        <li><a href="#">Pricing</a></li>
-                                        <li><a href="#">Customers</a></li>
-                                    </ul>
-                                </div>
+                    <div class="col-md-4">
+                        <div class="icon-box effect small clean">
+                            <div class="icon">
+                                <a href="#"><i class="fas fa-map-marker-alt"></i></a>
                             </div>
-                            <div class="col-lg-3">
-                                <div class="widget">
-                                    <div class="widget-title">Features</div>
-                                    <ul class="list">
-                                        <li><a href="#">Layouts</a></li>
-                                        <li><a href="#">Headers</a></li>
-                                        <li><a href="#">Widgets</a></li>
-                                        <li><a href="#">Footers</a></li>
-                                    </ul>
-                                </div>
+                            <h3>Caffe Location</h3>
+                            <p><strong>Caffe Address:</strong>
+                                <br> 795 Folsom Ave, Suite 600
+                                <br> San Francisco, CA 94107
+                                <br>
+                                <br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon-box effect small clean">
+                            <div class="icon">
+                                <a href="#"><i class="icon-phone"></i></a>
                             </div>
-                            <div class="col-lg-3">
-                                <div class="widget">
-                                    <div class="widget-title">Pages</div>
-                                    <ul class="list">
-                                        <li><a href="#">Portfolio</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Shop</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="widget">
-                                    <div class="widget-title">Support</div>
-                                    <ul class="list">
-                                        <li><a href="#">Help Desk</a></li>
-                                        <li><a href="#">Documentation</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <h3>Caffe Contact</h3>
+                            <p><strong>Phone:</strong>
+                                <br> (123) 456-7890
+                                <br> (987) 654-3210
+                                <br>
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="copyright-content">
-            <div class="container">
-                <div class="copyright-text text-center">&copy; 2019 POLO - Responsive Multi-Purpose HTML5 Template.
-                    All Rights Reserved.<a href="//www.inspiro-media.com" target="_blank" rel="noopener"> INSPIRO</a> </div>
             </div>
         </div>
     </footer>
@@ -158,10 +135,10 @@
 <!-- Scroll top -->
 <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
 <!--Plugins-->
-<script src="js/jquery.js"></script>
-<script src="js/plugins.js"></script>
+<script src="public/js/jquery.js"></script>
+<script src="public/js/plugins.js"></script>
 <!--Template functions-->
-<script src="js/functions.js"></script>
+<script src="public/js/functions.js"></script>
 </body>
 
 </html>
